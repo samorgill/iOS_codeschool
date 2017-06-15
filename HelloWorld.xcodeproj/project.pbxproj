@@ -12,6 +12,8 @@
 		6914192C1EF1B281008D2C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6914192B1EF1B281008D2C5A /* Assets.xcassets */; };
 		6914192F1EF1B281008D2C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6914192D1EF1B281008D2C5A /* LaunchScreen.storyboard */; };
 		691419371EF1CD07008D2C5A /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691419361EF1CD07008D2C5A /* ProductViewController.swift */; };
+		69AC5A2C1EF26EE30024681D /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC5A2B1EF26EE30024681D /* ContactViewController.swift */; };
+		69AC5A301EF27F500024681D /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AC5A2F1EF27F500024681D /* ProductsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6914192E1EF1B281008D2C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		691419301EF1B281008D2C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		691419361EF1CD07008D2C5A /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		69AC5A2B1EF26EE30024681D /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		69AC5A2F1EF27F500024681D /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				6914192D1EF1B281008D2C5A /* LaunchScreen.storyboard */,
 				691419301EF1B281008D2C5A /* Info.plist */,
 				691419361EF1CD07008D2C5A /* ProductViewController.swift */,
+				69AC5A2B1EF26EE30024681D /* ContactViewController.swift */,
+				69AC5A2F1EF27F500024681D /* ProductsTableViewController.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				691419371EF1CD07008D2C5A /* ProductViewController.swift in Sources */,
+				69AC5A301EF27F500024681D /* ProductsTableViewController.swift in Sources */,
 				691419251EF1B281008D2C5A /* AppDelegate.swift in Sources */,
+				69AC5A2C1EF26EE30024681D /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
